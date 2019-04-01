@@ -1,0 +1,7 @@
+
+content:
+{% for item in root %}
+{% if !item.is_leaf() %}
+{% include "xyz.html" %}
+{% endif %}
+{% endfor %}

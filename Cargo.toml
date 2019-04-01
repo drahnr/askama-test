@@ -3,11 +3,10 @@ name = "askama-bug"
 version = "0.1.0"
 authors = ["Bernhard Schuster <bernhard@ahoi.io>"]
 edition = "2018"
-build = "build.rs"
 
 [dependencies]
-askama = "0.7"
+askama = "0.8"
 
 
 [build-dependencies]
-askama = "0.7"
+askama = "0.8"
